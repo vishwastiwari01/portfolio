@@ -9,17 +9,9 @@ const projects = [
     description: 'Autonomous AI agent that calls scammers back, voice-impersonates humans on live calls, extracts structured threat intelligence with zero human involvement.',
     tags: ['Autonomous AI', 'Voice ML', 'Behavioral Classification'],
     color: '#06b6d4',
+    live: 'https://cyber-rakshak-frontend.vercel.app',
     github: 'https://github.com/vishwastiwari01',
-    video: null,
-  },
-  {
-    title: 'S.A.M',
-    sub: 'Smart Autonomous Mobile Assistant (40MB)',
-    description: 'Fine-tuned TinyLLaMA running on-device in just 40MB — no cloud. Full phone control via voice: calls, messages, navigation, apps. Continuous Jarvis wake-word mode.',
-    tags: ['TinyLLaMA', 'On-Device ML', 'Flutter'],
-    color: '#6366f1',
-    github: 'https://github.com/vishwastiwari01',
-    video: '/videos/sam-demo.mp4',
+    image: null,
   },
   {
     title: 'MedGPT',
@@ -27,48 +19,40 @@ const projects = [
     description: 'RAG over 302 pages of medical literature + real-time PubMed search. Llama 3.1 70B with source citations and query expansion.',
     tags: ['RAG', 'Llama 3.1 70B', 'PubMed', 'Streamlit'],
     color: '#c8a96e',
-    live: 'https://medgpt1.streamlit.app',
+    live: 'https://medgpt-website.vercel.app',
     github: 'https://github.com/vishwastiwari01',
-    video: null,
+    image: '/photos/project/medgpt.png',
   },
   {
-    title: 'MunzoPay',
-    sub: 'BLE Offline Payment System',
-    description: 'P2P payments over Bluetooth Low Energy — zero internet required. Offline signing, daily limits, sync-on-reconnect. Built for India\'s rural reality.',
-    tags: ['BLE', 'Flutter', 'Fintech', 'Offline-first'],
-    color: '#06b6d4',
-    github: 'https://github.com/vishwastiwari01',
-    video: '/videos/munzopay-demo.mp4',
-  },
-  {
-    title: 'PANOPTIC',
-    sub: 'UAS-SIGINT Defense Intelligence Platform',
-    description: 'Defense-grade drone dashboard: 3D Himalayan terrain (Three.js), satellite downlink, RADAR/JAMMER/SAR classification, RF spectrogram, NVG/FLIR modes.',
-    tags: ['Three.js', 'Defense', 'RADAR', 'WebGL'],
+    title: 'Minar E-commerce',
+    sub: 'Next-Gen Shopping Experience',
+    description: 'Full-stack e-commerce platform with seamless checkout, inventory management, and real-time payment processing.',
+    tags: ['Next.js', 'Stripe', 'Tailwind'],
     color: '#6366f1',
+    live: 'https://minar-theta.vercel.app',
     github: 'https://github.com/vishwastiwari01',
-    video: null,
-    featured: true,
+    image: '/photos/project/minar.png',
   },
   {
     title: 'AwaasDirect',
     sub: "India's Broker-Free Property Marketplace",
     description: "India's first AI-powered direct housing marketplace. RERA-verified owners, zero brokerage, AI floor plan generator, 3D virtual tours, real-time chat.",
     tags: ['Next.js', 'Node.js', 'Prisma', 'AI'],
-    color: '#c8a96e',
-    live: 'https://github.com/vishwastiwari01/awaasdirect',
+    color: '#06b6d4',
+    live: 'https://awaasdirect.vercel.app',
     github: 'https://github.com/vishwastiwari01/awaasdirect',
-    video: null,
+    image: '/photos/project/awasdirect.png',
     featured: true,
   },
   {
-    title: 'FinOps',
-    sub: 'Zero-Cost AI Financial Advisor',
-    description: 'LSTM 7-day price forecasting + Gemini 1.5 Flash + RSS news sentiment + Yahoo Finance. Candlestick dashboard with TensorFlow/Keras · FAISS stack.',
-    tags: ['LSTM', 'Gemini 1.5', 'FAISS', 'TensorFlow'],
-    color: '#06b6d4',
+    title: 'Smart Sewage System',
+    sub: 'IoT Sewage Management',
+    description: 'Real-time monitoring of sewage networks using IoT sensors. Predictive maintenance and overflow alerts dashboard.',
+    tags: ['IoT', 'React', 'Node.js'],
+    color: '#c8a96e',
+    live: 'https://smart-sewage-system-rytr.vercel.app/login',
     github: 'https://github.com/vishwastiwari01',
-    video: null,
+    image: '/photos/project/Smartflow.png',
   },
   {
     title: 'LearnMate',
@@ -78,7 +62,47 @@ const projects = [
     color: '#6366f1',
     live: 'https://learnmate-nextjs.vercel.app',
     github: 'https://github.com/vishwastiwari01',
-    video: null,
+    image: '/photos/project/learnmate.png',
+  },
+  {
+    title: 'TwinSpace',
+    sub: 'Digital Twin & Defense Intelligence',
+    description: 'Next-generation spatial intelligence and mapping for tactical and defense operations. 3D visualization and real-time data sync.',
+    tags: ['Three.js', 'Defense', 'WebGL'],
+    color: '#06b6d4',
+    live: 'https://idex-aditi-4-0.vercel.app',
+    github: 'https://github.com/vishwastiwari01',
+    image: '/photos/project/signit.png',
+    featured: true,
+  },
+  {
+    title: 'FundRadar',
+    sub: 'Startup Funding Discovery Platform',
+    description: 'Aggregating and tracking real-time funding opportunities for startups. AI-driven match-making between founders and VCs.',
+    tags: ['Next.js', 'AI', 'Fintech'],
+    color: '#c8a96e',
+    live: 'https://fundradar-swart.vercel.app',
+    github: 'https://github.com/vishwastiwari01',
+    image: '/photos/project/fundradar.png',
+  },
+  {
+    title: 'Smart Portable Freezer',
+    sub: 'IoT Temperature Controlled Storage',
+    description: 'Hardware-software integrated portable freezer with mobile app monitoring, Bluetooth connectivity, and temperature logging.',
+    tags: ['IoT', 'Hardware', 'Flutter', 'BLE'],
+    color: '#6366f1',
+    github: 'https://github.com/vishwastiwari01',
+    image: '/photos/project/smartportablefreezer.jpeg',
+  },
+  {
+    title: 'S.A.M',
+    sub: 'Smart Autonomous Mobile Assistant (40MB)',
+    description: 'Fine-tuned TinyLLaMA running on-device in just 40MB — no cloud. Full phone control via voice: calls, messages, navigation, apps. Continuous Jarvis wake-word mode.',
+    tags: ['TinyLLaMA', 'On-Device ML', 'Flutter'],
+    color: '#06b6d4',
+    github: 'https://github.com/vishwastiwari01',
+    video: '/videos/sam-demo.mp4',
+    image: '/photos/project/SAM.jpeg',
   },
 ]
 
@@ -95,7 +119,7 @@ export default function Projects() {
           {projects.map((project, i) => (
             <div 
               key={project.title}
-              className="group relative flex flex-col md:flex-row md:items-center gap-6 py-12 border-t border-white/10 transition-colors hover:bg-white/[0.01] px-4 md:px-8 cursor-default"
+              className="group relative flex flex-col md:flex-row md:items-stretch gap-8 py-12 border-t border-white/10 transition-colors hover:bg-white/[0.01] px-4 md:px-8 cursor-default"
             >
               {/* Subtle left border glow on hover */}
               <div 
@@ -104,33 +128,40 @@ export default function Projects() {
               ></div>
 
               {/* Left: Project NUMBER (ghost text) */}
-              <div className="w-[10%] min-w-[80px]">
-                <div className="text-[80px] font-syne font-thin leading-[0.8] text-white/10 group-hover:text-white/20 transition-colors select-none">
+              <div className="w-full md:w-[10%] min-w-[80px] flex md:block items-center justify-between mb-4 md:mb-0">
+                <div className="text-[60px] md:text-[80px] font-syne font-thin leading-[0.8] text-white/10 group-hover:text-white/20 transition-colors select-none">
                   {String(i + 1).padStart(2, '0')}
                 </div>
+                {project.featured && (
+                  <span 
+                    className="md:hidden font-mono text-[10px] uppercase px-3 py-1 rounded-full border shadow-[0_0_15px_currentColor] select-none"
+                    style={{ color: project.color, borderColor: `${project.color}50`, background: `${project.color}20` }}
+                  >
+                    Featured
+                  </span>
+                )}
               </div>
 
-              {/* Center: Title and Tagline */}
-              <div className="w-full md:w-[40%] flex flex-col gap-2 relative">
-                <div className="flex items-center gap-3">
-                  <h3 className="font-syne font-extrabold text-[28px] text-white leading-none">{project.title}</h3>
-                  {project.featured && (
-                    <span 
-                      className="font-mono text-[10px] uppercase px-3 py-1 rounded-full border shadow-[0_0_15px_currentColor] select-none"
-                      style={{ color: project.color, borderColor: `${project.color}50`, background: `${project.color}20` }}
-                    >
-                      Featured
-                    </span>
-                  )}
+              {/* Center: Title, Description, Actions */}
+              <div className="w-full md:w-[40%] flex flex-col justify-center gap-4 relative z-10">
+                <div>
+                  <div className="flex items-center gap-3 mb-2">
+                    <h3 className="font-syne font-extrabold text-[28px] text-white leading-none">{project.title}</h3>
+                    {project.featured && (
+                      <span 
+                        className="hidden md:inline-block font-mono text-[10px] uppercase px-3 py-1 rounded-full border shadow-[0_0_15px_currentColor] select-none"
+                        style={{ color: project.color, borderColor: `${project.color}50`, background: `${project.color}20` }}
+                      >
+                        Featured
+                      </span>
+                    )}
+                  </div>
+                  <p className="font-mono text-[#06b6d4] text-xs">{project.sub}</p>
                 </div>
-                <p className="font-mono text-[#06b6d4] text-xs">{project.sub}</p>
-                <p className="text-white/50 text-sm mt-3 leading-relaxed md:hidden">{project.description}</p>
-              </div>
-
-              {/* Right: Tech Stack & Actions */}
-              <div className="w-full md:w-[50%] flex flex-col items-start md:items-end gap-5">
-                <p className="text-white/50 text-[15px] leading-relaxed hidden md:block text-right">{project.description}</p>
-                <div className="flex flex-wrap md:justify-end gap-2">
+                
+                <p className="text-white/50 text-[15px] leading-relaxed">{project.description}</p>
+                
+                <div className="flex flex-wrap gap-2 mt-2">
                   {project.tags.map((tag) => (
                     <span 
                       key={tag} 
@@ -141,7 +172,8 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-4 mt-2">
+                
+                <div className="flex gap-4 mt-4">
                   {project.github && (
                     <a href={project.github} target="_blank" rel="noopener noreferrer"
                       className="group/link flex items-center gap-2 text-white/50 hover:text-white text-xs font-mono uppercase tracking-widest transition-colors">
@@ -166,6 +198,25 @@ export default function Projects() {
                     </button>
                   )}
                 </div>
+              </div>
+
+              {/* Right: Image Preview */}
+              <div className="w-full md:w-[50%] flex flex-col justify-center mt-6 md:mt-0">
+                {project.image ? (
+                  <div className="w-full aspect-[16/10] rounded-xl overflow-hidden border border-white/10 relative shadow-2xl">
+                    <img 
+                      src={project.image} 
+                      alt={project.title} 
+                      className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  </div>
+                ) : (
+                  <div className="w-full aspect-[16/10] rounded-xl border border-white/10 relative shadow-2xl overflow-hidden flex items-center justify-center bg-[#0c0c1a]">
+                    <div className="absolute inset-0 opacity-20" style={{ background: `linear-gradient(135deg, ${project.color}, transparent)` }}></div>
+                    <span className="font-syne font-bold text-3xl opacity-20 select-none" style={{ color: project.color }}>{project.title}</span>
+                  </div>
+                )}
               </div>
             </div>
           ))}
