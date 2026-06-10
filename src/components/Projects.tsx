@@ -4,11 +4,21 @@ import VideoModal from './VideoModal'
 
 const projects = [
   {
+    title: 'BharatMaps',
+    sub: 'DRDO Dare to Dream Winner',
+    description: 'An offline-first emergency communication and navigation platform that enables secure messaging, verified alerts, and safe routing even during internet blackouts.',
+    tags: ['DRDO', 'Offline Navigation', 'Emergency Comms'],
+    color: '#06b6d4',
+    github: 'https://github.com/vishwastiwari01',
+    image: '/photos/project/bharatmapsworking.jpeg',
+    featured: true,
+  },
+  {
     title: 'AI Honeypot',
     sub: 'Autonomous Anti-Scam Intelligence',
     description: 'Autonomous AI agent that calls scammers back, voice-impersonates humans on live calls, extracts structured threat intelligence with zero human involvement.',
     tags: ['Autonomous AI', 'Voice ML', 'Behavioral Classification'],
-    color: '#06b6d4',
+    color: '#6366f1',
     live: 'https://cyber-rakshak-frontend.vercel.app',
     github: 'https://github.com/vishwastiwari01',
     image: null,
